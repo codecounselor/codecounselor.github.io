@@ -1,0 +1,69 @@
+# Site settings
+
+url: "http://www.codecounselor.org"
+title: "{ Code Counselor }"
+description: "Code_that_lives_happily_ever_after.sh &"
+keywords: "nate, good, software, agile, software, development, technology, computer science, java, testing"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: ""
+disqus-shortname: ""
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/slowdown.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - image: "/img/career/jpmc.jpg"
+    date: "September 2008 - Present"
+    description: "Application Development Lead at JPMorgan Chase"
+  - image: "/img/career/nielsen.jpg"
+    date: "May 2004 - September 2008"
+    description: "Software Engineer at Nielsen working on Web Based Analytics Platform for consumer spending"
+
+
+# First image of the Career timeline
+career-img: "/img/career/mu.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/codecounselor"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/pub/nate-good/13/485/63a"
+#  - title: "youtube"
+#    url: "http://youtube.com/c/PanosSakkos"
+#  - title: "soundcloud"
+#    url: "https://soundcloud.com/psakkos/"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
