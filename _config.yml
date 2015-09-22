@@ -14,7 +14,12 @@ highlighter: pygments
 #highlighter: rogue
 
 markdown: redcarpet
+redcarpet:
+  #https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html
+  extensions: ["autolink: false", "with_toc_data", "highlight"]
+
 #markdown: kramdown #Doesn't work with fenced code blocks 
+
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
