@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 20px 0 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -35,15 +35,15 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
-    font-size: 18px;
+    margin: 0 0 15px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
+        margin: 0 0 15px;
+        font-size: 14px;
         line-height: 1.6;
     }
 }
@@ -74,7 +74,7 @@ a:focus {
 .personal-list {
   text-align: center;
   margin: 0 0 35px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.5;
   list-style-position: inside;
 }
@@ -291,7 +291,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 40px;
     }
 
     .download-section {
