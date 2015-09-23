@@ -40,11 +40,11 @@ me-img: "/img/slowdown.jpg"
 # Blog variables
 paginate: 15
 paginate_path: "blog/page:num"
-post-preview-words: 128
+post-preview-words: 60
 
 fb-share: True
 twitter-share: True
-reddit-share: True
+reddit-share: False
 
 # Career variables
 
