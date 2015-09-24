@@ -49,9 +49,12 @@ reddit-share: False
 # Career variables
 
 events:
-  - image: "/img/career/jpmc.jpg"
+  - image: "/img/career/celerity.jpg"
     date: "September 2008 - Present"
-    description: "Application Development Lead at JPMorgan Chase"
+    description: "Scrum Master, Developer, Change Agent"
+  - image: "/img/career/jpmc.jpg"
+    date: "September 2008 - September 2015"
+    description: "Agile Coach & Application Development Lead at JPMorgan Chase"
   - image: "/img/career/nielsen.jpg"
     date: "May 2004 - September 2008"
     description: "Software Engineer at Nielsen working on Web Based Analytics Platform for consumer spending"
