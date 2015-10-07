@@ -50,7 +50,7 @@ reddit-share: True
 
 events:
   - image: "/img/career/jpmc.jpg"
-    date: "September 2008 - Present"
+    date: "September 2015 - Present"
     description: "Application Development Lead at JPMorgan Chase"
   - image: "/img/career/nielsen.jpg"
     date: "May 2004 - September 2008"
