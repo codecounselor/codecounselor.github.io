@@ -12,7 +12,8 @@
           <small> <a href="{{ post.url }}#disqus_thread">Comments</a></small>
         </h4>
 
-        {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
+        <!-- Can use post.excerpt instead of content/truncatewords -->
+        {{ post.content | markdownify | truncatewords: site.post-preview-words | strip_html}}
 
         <a href="/blog/index.html"><h4><strong>View more posts</strong></h4></a>
 

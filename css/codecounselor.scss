@@ -43,8 +43,8 @@ p {
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
+        margin: 0 0 15px;
+        font-size: $contentFontSize;
         line-height: 1.6;
     }
 }
