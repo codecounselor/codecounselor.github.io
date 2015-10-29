@@ -20,7 +20,7 @@ Quality must be **built in** as the software is being built; not tested in at th
 3. there are no surprises at the end of a sprint or release
 
 ## Who is responsible for quality?
-The entire team is responsible for the quality of the product, at every increment.  In agile, testing is no longer the full responsibility of the quality analyst.
+The entire team is responsible for the quality of the product, at every increment.  In agile, testing is no longer the full responsibility of the quality analyst.  The diverse skillset of the entire cross functional agile team is required to ensure that the automated test strategy is robust and maintainable.  Often times teams get off to a rapid start with automation only to discover that they are swallowed up trying to maintain their tests.  This can be avoided by applying engineering practices like incremental design and refactoring, as well as by addressing the concerns raised in the getting started section below.
 
 ## What does testing look like on an agile team?
 Testing should take on many forms.  Test Driven Development (TDD) is a popular Extreme Programming (XP) practice that can be applied at each of the following levels:
@@ -50,7 +50,7 @@ Because Agile places high value on automated tests, they should be run at every 
 1. Release Milestone (Integration/System/UI) - These may be tests that require manual intervention or carry some form of higher cost.
 
 ## How can you get started?
-There is no shortage of tools which make promises to ease the burden of automated testing.  The truth is that testing requires the same level of engineering rigor as that of your production system.  Be wary of vendors who make promises of trival record and playback features.  As you begin to develop a test strategy, take the following into consideration:
+There is no shortage of tools which make promises to ease the burden of automated testing.  The truth is that testing requires the same level of engineering rigor as that of your production system.  Be wary of vendors who make promises of trival record and playback features.  As you begin to develop a test strategy, take the following concerns into consideration:
 
 1. How will you properly isolate your tests from each other?  Account for things like data conditioning, concurrent access to shared resources, and external dependencies.
 1. How will the team evaluate, plan, and ensure an acceptable level of test coverage in each of the testing levels mentioned above?  
