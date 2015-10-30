@@ -6,6 +6,4 @@ category: Technology
 tags: [ 'software', 'refactoring']
 ---
 
-## What is Refactoring?
-
 Perhaps more importantly, I will address what I believe refactoring is not.

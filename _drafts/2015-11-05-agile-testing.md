@@ -6,14 +6,12 @@ category: Technology
 tags: [ 'software', 'testing']
 ---
 
-# Agile Software Testing
-
 One significant change occuring as a result of an organization migrating their SDLC to an agile methodology is the shortened (sprint) cycle time.  This brings a number of immediate benefits, but also introduces a number of challenges.  One of those challenges is maintaining a consistent level of quality as part of every release without incurring exponential costs in testing.
 
 This article serves as a guide to automated agile software testing.
 
 ## Why is it important to build quality in?
-Quality must be **built in** as the software is being built; not tested in at the end.  This has several positive side effects:
+Quality must be **built in** as part of every story; not tested in at the end.  Adding multiple levels of test automation to your *definition of done* has several positive side effects:
 
 1. supports and encourages ongoing refactoring by providing confidence to developers, testers, and management that the system still works after changes are introduced
 2. guides the design of the system and ensures it is testable

@@ -1,12 +1,11 @@
 ---
 layout: post
 section-type: post
-title: Code Counseling
+title: What is Code Counseling?
 category: Technology
 tags: ['coding', 'software', 'technical-debt', 'mentorship']
 ---
 
-## What is Code Counseling?
 Code itself can not be counseled, but the people and process used to create software are often prime candidates for counseling. 
 
 **Code Counseling** is the ongoing practice that all code counselors perform.

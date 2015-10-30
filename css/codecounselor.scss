@@ -3,7 +3,7 @@
 ---
 
 $primary: #219AB3;
-$dark: #000;
+$dark: dimgray;
 $light: #fff;
 
 $contentFontSize: 14px;
@@ -39,6 +39,10 @@ p {
     margin: 0 0 15px;
     font-size: $contentFontSize;
     line-height: 1.5;
+}
+
+.category {
+    color: darkblue;
 }
 
 @media(min-width:767px) {
@@ -236,7 +240,7 @@ a {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 60px;
     }
 
     .download-section {

@@ -6,8 +6,6 @@ category: Technology
 tags: [ 'software', 'coding']
 ---
 
-## A conduct for code
-
 A few colleagues and I agreed to discuss [this premise of this article]( http://derickbailey.com/2015/09/14/code-is-for-coworkers-not-compilers/), stating the code is for human readership, not compilers.  While I personally agree with the author, I believe there is a lot more to say on the topic.  The following questions come to mind as I read the article and some of its comments.
 
 ### Can the code be too expressive, or verbose?
