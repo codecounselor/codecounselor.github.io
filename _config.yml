@@ -26,10 +26,10 @@ redcarpet:
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
+  About: 'About'
+  Blog: 'Blog'
+  Career: 'Career'
+  Contact: 'Contact'
 
 background-img: "/img/utaharch.jpg"
 

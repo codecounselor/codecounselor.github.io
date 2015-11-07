@@ -18,6 +18,7 @@ $linkColor: $orange;
 $selectionBackground: $orange;
 
 $contentFontSize: 14px;
+$sectionPadding: 100px;
 
 body {
     width: 100%;
@@ -85,7 +86,7 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $light;
-    background-color: $dark;
+    background-color: $gray;
     .navbar-brand {
         font-weight: 700;
         &:focus {
@@ -139,9 +140,9 @@ a {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: $dark;
+        background-color: $gray;
         a {
-            color: $fontColor;
+            //color: $fontColor;
         }
     }
 
@@ -232,7 +233,7 @@ a {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: $sectionPadding;
 }
 
 .download-section {
@@ -255,7 +256,7 @@ a {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 60px;
+        padding-top: $sectionPadding;
     }
 
     .download-section {
