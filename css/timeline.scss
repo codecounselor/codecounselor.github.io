@@ -1,3 +1,14 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$orange: #d75c37;
+$blue: #7094a8;
+$gray: #81888d;
+
+
+$timelineBorderColor: $blue;
+
 .timeline {
     position: relative;
     padding: 0;
@@ -12,7 +23,7 @@
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: $timelineBorderColor;
 }
 
 .timeline>li {
@@ -60,11 +71,11 @@
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid $timelineBorderColor;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #f1f1f1;
+    background-color: $timelineBorderColor;
 }
 
 .img-me {
@@ -73,11 +84,11 @@
     width: 100px;
     height: 100px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid $gray;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #f1f1f1;
+    background-color: $gray;
 }
 
 .timeline>li .timeline-image h4 {
