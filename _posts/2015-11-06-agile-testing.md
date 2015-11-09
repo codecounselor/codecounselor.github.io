@@ -41,7 +41,7 @@ Validates the interaction of two or more components within a system.  These can 
 Validates the interactions of the system under test with one or more of its external systems.  Integration tests must be run post build since they run against a deployed application running in container.
 
 #### System Tests
-Validate the functionality of a fully integrated, full stack system.  For example, these could be executed against a middleware service or MVC endpoint.  Batch jobs also fall into this category.  Using *[Service Virtualization](https://en.wikipedia.org/wiki/Service_virtualization)* is an acceptable practice (i.e. to setup a controlled environment, simulate failure scenarios, test SLA permutations, etc) so long as you test coverage all integrated systems running non-simulated.   
+Validate the functionality of a fully integrated, full stack system.  For example, these could be executed against a middleware service or MVC endpoint.  Batch jobs also fall into this category.  Using *[Service Virtualization](https://en.wikipedia.org/wiki/Service_virtualization)* is an acceptable practice (i.e. to setup a controlled environment, simulate failure scenarios, test SLA permutations, etc) so long as you ensure test coverage of all integrated systems running non-simulated.   
 
 #### User Interface (UI) Test
 A test against the browser or thick client application.  These tests may or may not exercise the full stack of services supporting the UI or they may leverage one or more layers of service virtualization to isolate the testing of the presentation logic.  With modern advances in front-end (JavaScript) tooling, be sure to consider all of the previous types of testing for your client side logic as well.
