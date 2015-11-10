@@ -32,7 +32,7 @@ Most teams new to testing will rush straight to UI tests.  Teams with technical 
 Whatever you decide, agree as an organization what terminology you will use and be consistent.  For example, it is common for the term 'unit test' to carry several different meanings depending who you ask.
 
 #### Unit Tests 
-These are sometimes referred to as 'micro tests'.  Unit tests should not be confused with manual testing performed by developers before handing features off to QA.  Unit tests are automated using an [xUnit](https://en.wikipedia.org/wiki/XUnit) framework which are executed as part of every build.  Two simple criteria to apply as you starte are (1) should run without a network connection (2) should run for < 1ms.  There are numerous articles and books that you can reference if you are new to unit testing.
+These are sometimes referred to as 'micro tests'.  Unit tests should not be confused with manual testing performed by developers before handing features off to QA.  Unit tests are automated using an [xUnit](https://en.wikipedia.org/wiki/XUnit) framework which are executed as part of every build.  Two simple criteria to apply as you start are (1) should run without a network connection (2) should run for < 1ms.  There are numerous articles and books that you can reference if you are new to unit testing.
 
 #### Component Tests
 Validates the interaction of two or more components within a system.  These can still be run during a build because they do not interact with external systems.  Database connections may be made from these tests.  Favor in memory embedded databases since they support test isolation and parallel execution.
