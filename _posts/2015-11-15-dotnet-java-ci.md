@@ -7,9 +7,9 @@ tags: [ 'software', 'coding']
 ---
 
 ## .NET
-I spent most of my Saturday sitting at a local [.NET Code Camp](http://www.meetup.com/Central-Penn-Dot-Net-User-Group/events/225230290/) and picked up some excelling insights in an area that I have not spent much time with for many years.
+I spent most of my Saturday sitting at a local [.NET Code Camp](http://www.meetup.com/Central-Penn-Dot-Net-User-Group/events/225230290/) and picked up some excellent insights in an area that I have not spent much time for many years.
 
-* [Ken Dale](http://kendaleiv.com) gave an excellent overview on how to use [Choclatey](https://chocolatey.org) to "DevOps Yourself" and do some scripting to quickly setup a new VM with a suite of software through unattended installs.
+* [Ken Dale](http://kendaleiv.com) gave an comprehensive overview on how to use [Choclatey](https://chocolatey.org) in order to "DevOps Yourself" and do some scripting to quickly setup a new VM with a suite of software through unattended installs.
 * IBM was present and gave a live demo of how to provision VMs in BlueMix.  While BlueMix seemed to be on par with other cloud providers like AWS, Rackspace, OpenShift, etc. the key differentiator is their growing set of APIs that allow your applications to interface with the AI features of Watson.
  
 ## Java
