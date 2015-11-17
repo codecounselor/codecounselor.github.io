@@ -64,17 +64,18 @@ public void login(){
 
 Future features and examples will illustrate how complex data structures can be composed to keep test data maintainable and test code readable at the same time.
 
-## You Can't Beat Free (GitHub, Travis CI)
+## You Can't Beat Free
 
+#### GitHub Pages
 It is worth mentioning that the blog you are reading is being hosted for free on [GitHub Pages](https://pages.github.com) which has excellent support for building and instantaneously redeploying [Jekyll](https://jekyllrb.com) content.
+
+#### Travis CI
+
+[![Build Status](https://travis-ci.org/SyrahTest/syrahtest-jvm.svg?branch=master)](https://travis-ci.org/SyrahTest/syrahtest-jvm)
 
 And I was delighted last night when in about 15 minutes I was able to sign up with [Travis CI](https://travis-ci.org/), enable my git project, configure my build, and successfully run my syrahtest-jvm build.  
 
 Travis provides a cloud based build service free to any open source project, as well as a paid offering.  I'm still exploring its feature set and determining the best way to get my build artifacts into a central maven repository. 
-
-Maybe you've seen projects already with neat status images like this:
-
-[![Build Status](https://travis-ci.org/SyrahTest/syrahtest-jvm.svg?branch=master)](https://travis-ci.org/SyrahTest/syrahtest-jvm)
 
 Since it wasn't painfully obvious, for anyone getting started with TravisCI I recommend the following:
 
@@ -88,3 +89,11 @@ Since it wasn't painfully obvious, for anyone getting started with TravisCI I re
 
 3. Check in your .travis.yaml file and watch your build run!
 4. Take a look at the other command options and do some experimenting.
+
+#### Codecov
+
+[![Test Coverage](https://img.shields.io/codecov/c/github/SyrahTest/syrahtest-jvm.svg)](https://codecov.io/github/SyrahTest)
+
+Another free provider (for open source projects) that has direct integration with TravisCI is [Codecov](https://codecov.io/)
+Their site provides simple setup instructions for Maven, but if you're using gradle I found this page to be accurate and easy to follow: <http://vorba.ch/2015/java-gradle-travis-jacoco-codecov.html>
+
