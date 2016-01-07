@@ -8,7 +8,7 @@ tags: [ 'hiring']
 
 Many years ago I was working on a large project and my organization was doing some significant staff augmentation through a number of vendors.  During this time I came to the conclusion that an absence of good hiring practices and standards can have a detrimental impact a groups ability to execute its goals.  
 
-Every person that an organization on boards carries an investment cost.  Contrary to common belief, no two people are interchangeable, and there is always an investment cost when someone joins the organization.  I am careful to distinguish avoid terms like 'overhead' because I believe people are not resources and onboarding them into the organization ought to be considered an investment.  This article is about how to maximize the return on that investment.
+Every person that an organization on boards carries an investment cost.  Contrary to common belief, no two people are interchangeable, and there is always an investment cost when someone joins the organization.  I am careful to avoid terms like 'overhead' because I believe people are not resources and onboarding them into the organization ought to be considered an investment.  This article is about how to maximize the return on that investment.
 
 The aim here is not to provide low level technical questions, but some of the foundational characteristics I look for anytime I am interviewing a candidate.  It has been my privilege to interview many people over my career for a variety of roles, all of which have informed these three points.
 
