@@ -72,9 +72,26 @@ public class MerchantTest {
   }
 }
 ```
-
 This makes the test cases more expressive and all concerns about each endpoint can be centrally defined.
 
 By assigning the `baseURI` before the invocation of `with()` we are capturing the value as they exist at that point in time.  Be aware that these are static values.  Consequently, if you are running a large number of tests concurrently be sure to treat the setup of any specifications as a protected resource that is thread-safe.
+
+While this works just fine, and its concise, it limits the spec to the way it was configured as any changes would cause undesired side effects to other tests.  For this reason you may decide it best to follow the builder paradigm as illustrated in the documentation, which would look like this:
+
+```
+  
+  @Test
+  public void getMerchantsReusableSpec(){
+    given().
+      spec(localhostLoopBackSpec).
+    when().
+      get("/api/Merchants").
+    then().
+      assertThat().body("[0].name", equalTo("Dickies BBQ"));
+  }
+```
+
+Note that his approach also follows the definition of Behavior Driven Development (BDD) more closely by formalizing the given/when/then steps. 
+
 
 Happy Testing! 
