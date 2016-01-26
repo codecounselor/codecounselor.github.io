@@ -78,8 +78,7 @@ By assigning the `baseURI` before the invocation of `with()` we are capturing th
 
 While this works just fine, and its concise, it limits the spec to the way it was configured as any changes would cause undesired side effects to other tests.  For this reason you may decide it best to follow the builder paradigm as illustrated in the documentation, which would look like this:
 
-```
-  
+```java
   @Test
   public void getMerchantsReusableSpec(){
     given().
