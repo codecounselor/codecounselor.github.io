@@ -11,3 +11,5 @@ tramp
 _site/*
 _deploy/*
 Rakefile
+
+.idea
