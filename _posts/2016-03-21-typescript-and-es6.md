@@ -141,11 +141,11 @@ Here is an example of my `tsconfig.json` file:
 #### Testing
 Hopefully you're thinking: "I hope he is going to talk about testing soon since I practice TDD".  Fear not.
 
-By getting your test harness working first you are ensuring not only that your tests will run, but that you have Babel configured correctly to transpile your code.  I have found the best way to configure unit tests is as follows:
+By getting your test harness working first you are ensuring not only that your tests will run, but that you have Babel configured correctly to transpile your code.
 
-- Make sure your environment is setup for testing, I prefer the mocha/chai/sinon stack: `npm install -D mocha chai sinon`.
-- Write the unit tests **in ES6, not TypeScript**, as the Webstorm test runner does not yet work with TypeScript tests.
-- Write a simple test file `test/helloworld.test.js`, for now just use this code:
+Make sure your environment is **setup for testing**, I prefer the mocha/chai/sinon stack: `npm install -D mocha chai sinon`.  Mocha is made available in global scope so `describe` and `it` will execute without being imported, but if you're using TypeScript for your test you may see compilation errors.
+
+Write a simple test file `test/helloworld.test.js`, for now just use this code:
 
 ~~~js
 import chai from 'chai';
@@ -164,9 +164,9 @@ First, because we're using ES6 import syntax, we need to invoke Mocha using `bab
 
 ![Webstorm Mocha Configuration for Babel Node Interpreter](/img/tses6/webstorm-mochaconfig.png){: .center-image }
 
-On a *nix/osx environment this should be located in `~/.node/bin/babel-node` and on a windows environment it should be in `~\AppData\Roaming\npm\babel-node.cmd`.  Make sure that you always select the `.cmd` file on windows.
+On a *nix/osx environment this should be located in `~/.node/bin/babel-node` and on a windows environment it should be in `~\AppData\Roaming\npm\babel-node.cmd`.  Make sure that you always select the `.cmd` file on Windows.
 
-Before you can run the test you need to instruct babel to activate the `es2015 preset`.  The best way to do this is to create a `.babelrc` file in the root of your project.  This will be detected anytime babel runs.  At a minimum it should contain:
+Before you can run the test you need to instruct Babel to activate the `es2015 preset`.  The best way to do this is to create a `.babelrc` file in the root of your project.  This will be detected anytime babel runs.  At a minimum it should contain:
 
 ~~~
 {
@@ -189,6 +189,7 @@ I configure the watcher to emit ES5 code into a folder separate from my source. 
 - Arguments: `$FileRelativePath$ --out-dir es5_js`
 
 #### Debugging
+
 There are a couple of important details regarding debugging.  This is where I found a lack of general guidance and documentation.  I currently have found this to be the best setup for myself:
 
 - Set `"sourceMaps": "inline"` inside of my `.babelrc` 
