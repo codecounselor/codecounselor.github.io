@@ -128,7 +128,7 @@ Alternatively, you may configure the settings to use a `tsconfig.json` file, whi
 
 Here is an example of my `tsconfig.json` file:
  
-~~~json
+~~~ json
 {
   "compilerOptions": {
     "target": "es6",
@@ -147,7 +147,7 @@ Make sure your environment is **setup for testing**, I prefer the mocha/chai/sin
 
 Write a simple test file `test/helloworld.test.js`, for now just use this code:
 
-~~~js
+~~~ javascript
 import chai from 'chai';
 const assert = chai.assert;
 
@@ -168,7 +168,7 @@ On a *nix/osx environment this should be located in `~/.node/bin/babel-node` and
 
 Before you can run the test you need to instruct Babel to activate the `es2015 preset`.  The best way to do this is to create a `.babelrc` file in the root of your project.  This will be detected anytime babel runs.  At a minimum it should contain:
 
-~~~
+~~~ json
 {
   "presets": ["es2015"]
 }

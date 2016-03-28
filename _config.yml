@@ -10,7 +10,7 @@ google-tracking-id: "UA-67044110-1"
 disqus-shortname: "codecounselor"
 
 # Code Highlighting
-highlighter: rogue
+highlighter: rouge
 
 markdown: kramdown 
 
