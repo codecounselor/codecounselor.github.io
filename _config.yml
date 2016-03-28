@@ -10,17 +10,9 @@ google-tracking-id: "UA-67044110-1"
 disqus-shortname: "codecounselor"
 
 # Code Highlighting
-highlighter: pygments
-#highlighter: rogue
+highlighter: rogue
 
-#https://github.com/vmg/redcarpet/ 
-#markdown: redcarpet
-#redcarpet:
-  #https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html
-#  extensions: ["autolink: false", "with_toc_data", "highlight"]
-
-markdown: kramdown #Doesn't work with fenced code blocks 
-
+markdown: kramdown 
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
