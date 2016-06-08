@@ -12,7 +12,7 @@ disqus-shortname: "codecounselor"
 # Code Highlighting
 highlighter: rouge
 
-markdown: kramdown 
+markdown: kramdown
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
@@ -43,8 +43,8 @@ reddit-share: True
 
 events:
   - image: "/img/career/celerity.jpg"
-    date: "September 2015 - Present"
-    description: "Consultant / Scrum Master at [Celerity](http://www.celerity.com)"
+    date: "September 2015 - February 2016"
+    description: "Consultant / Scrum Master at Celerity"
   - image: "/img/career/jpmc.jpg"
     date: "September 2008 - September 2015"
     description: "Application Development Lead at JPMorgan Chase"
