@@ -31,6 +31,10 @@ If you are using a configuration management tool like Chef, Puppet, or Ansible t
 
 [TMUX](https://tmux.github.io/) can be downloaded from the site or installed by your package manager (i.e. `brew install tmux`)
 
+Here I am running TMUX inside of an iTerm tab, for the best of both worlds!
+
+![TypeScript](/img/terminals/tmux.png){: .center-image }
+
 #### What is great about TMUX?
 
 Probably the most significant aspect is that you can create persistent sessions, this means:
@@ -61,6 +65,12 @@ For years I've worked out of the **Bourne Again Shell (bash)**.  Recently I was 
 #### Oh-My-ZSH!
 
 If you're not ready to jump to ZSH, but still want the git nicities I came across **[Oh My Git](https://github.com/arialdomartini/oh-my-git)** while I was configuring my system.
+
+In either case, you will end up with a terminal that looks something like this:
+
+![TypeScript](/img/terminals/zsh-git-cmd.png){: .center-image }
+
+Notice the circle and plus markers for when there were changes pending and scheduled for commit.  The red 'x' icon is added anytime the previous command terminates with a non-zero code.
 
 Below are some important steps I encountered when getting setup with Oh-My-Zsh.  If you're setting up your mac environment from ground zero, feel free to borrow from my own [script on GitHub](https://github.com/codecounselor/scripts/blob/master/bootstrap-osx.sh)
 
