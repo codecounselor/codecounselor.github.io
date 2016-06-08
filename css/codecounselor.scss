@@ -5,7 +5,7 @@
 //Palette from: http://www.scottmccarthydesign.com/
 $junk: forHolder;
 
-$blue: #7094a8; 
+$blue: #7094a8;
 $orange: #d75c37;
 $gray: #81888d;
 
@@ -348,7 +348,7 @@ body {
     webkit-tap-highlight-color: fade($light, 20%);
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -365,7 +365,7 @@ body {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -386,4 +386,8 @@ body {
 {
     margin: 0 auto;
     display: block;
+}
+
+.post {
+  text-align: left
 }

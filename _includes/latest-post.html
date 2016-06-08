@@ -5,15 +5,25 @@
 
         {{ page.content | markdownify }}
 
-        {% assign post = site.posts.first %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small class="category">. {{ post.category }} .</small>
-          <strong> <a href="{{ post.url }}">{{ post.title }} </a> </strong>
-          <small> <a href="{{ post.url }}#disqus_thread">Comments</a></small>
+        <!-- {% assign post = site.posts.first %} -->
+        {% for post in site.posts limit:2 %}
+        <h4>
+          <div>
+            <strong> <a href="{{ post.url }}">{{ post.title }} </a> </strong>
+          </div>
+          <div>
+            <strong> {{ post.date | date_to_string }} </strong>
+            <small class="category">. {{ post.category }} .</small>
+            <small> <a href="{{ post.url }}#disqus_thread">Comments</a></small>
+          </div>
         </h4>
 
+        <div class="post">
         <!-- Can use post.excerpt instead of content/truncatewords -->
         {{ post.content | markdownify | truncatewords: site.post-preview-words | strip_html}}
+        <a href="{{ post.url }}">continue reading</a>
+        </div>
+        {% endfor %}
 
         <a href="/blog/index.html"><h4><strong>View more posts</strong></h4></a>
 
