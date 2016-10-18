@@ -82,7 +82,7 @@ public class RestApiWebInitializer extends AbstractAnnotationConfigDispatcherSer
 
 * `null` must be returned from `getRootConfigClasses` or an exception will occur stating you attempted to define multiple root contexts.
 * It is important to override `getServletName` if you plan to implement spring security anywhere outside of the root context.  This is explained in more detail in Appendix A.
-* You may list more than one `servlet config class`, but I preferred to use `@Include` annotations in my primary web configuation class.
+* You may list more than one `servlet config class`, but I preferred to use `@Import` annotations in my primary web configuation class.
 
 In order to not reinvent the wheel, [here is a good detailed explanation of `AbstractAnnotationConfigDispatcherServletInitializer`](http://joshlong.com/jl/blogPost/simplified_web_configuration_with_spring.html).
 
@@ -108,7 +108,7 @@ public class FlexAPIV1WebConfig {
 * This class represents the entry point for the Sprint MVC configuration for the context, hence the `@EnableWebMvc` annotation.
 * `@Import` is used here instead of listing these inside of `RestApiWebInitializer`, to provide better **encapsulation and separation of concerns**.  It would not be good if the servlet initializer had knowledge of how the MVC components needed to be configured.
 * If you intend to use `@PropertySource` annotations then you must declare a **static** `PropertySourcesPlaceholderConfigurer` bean, as  [Spring authors have made the decision](https://jira.spring.io/browse/SPR-8539) to not automatically inject this for you.
-* Some will suggest separating your RestController configuration from the rest of the beans and using
+* Some will suggest separating your RestController configuration from the rest of the beans and using inclusion and/or exclusion filters on the component scan.
 * I left the configurer options commented here in the event you would like to ignore any unfound resources.
 
 ## Testing The Implementation
